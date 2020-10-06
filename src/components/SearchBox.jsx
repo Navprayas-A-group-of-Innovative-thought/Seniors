@@ -1,24 +1,15 @@
 import React from "react";
 
-function SearchBox({ Search }) {
+function SearchBox({ filter }) {
   return (
     <div className="container">
       <div className="input-group mb-3">
         <input
-          type="text"
+          type="search"
           className="form-control"
-          placeholder="Ex: akash"
-          onChange={(e) => Search(e)}
+          placeholder="Search Seniors  Ex: vikash"
+          onChange={filter}
         />
-        <div className="input-group-append">
-          <button
-            className="btn btn-outline-primary"
-            type="button"
-            id="button-addon2"
-          >
-            Search
-          </button>
-        </div>
       </div>
     </div>
   );
