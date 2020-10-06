@@ -7,7 +7,7 @@ function SearchBox({ filter }) {
         <input
           type="search"
           className="form-control"
-          placeholder="Search Seniors  Ex: vikash"
+          placeholder="Search Seniors using categories  Ex: IIT"
           onChange={filter}
         />
       </div>
