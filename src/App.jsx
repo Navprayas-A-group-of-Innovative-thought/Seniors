@@ -12,7 +12,7 @@ function App() {
   // };
 
   const FilteredSeniors = Seniors.filter((senior) =>
-    senior.category.toLowerCase().includes(searchField.toLowerCase())
+    senior.college.toLowerCase().includes(searchField.toLowerCase())
   );
 
   console.log("FilteredSeniors", FilteredSeniors);

@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function CardGroup({ seniors }) {
   console.log(seniors);
-  if (seniors) {
+  if (seniors.length !== 0) {
     return (
       <div className="container">
         {seniors.map((senior) => {
